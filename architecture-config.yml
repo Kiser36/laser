@@ -1,0 +1,87 @@
+# ============================================================================
+# Owere & Associates — architecture-config.yml
+# Machine-readable project metadata (stack, database, services, mailboxes).
+# Supersedes the previous agent-config.yml.
+# ============================================================================
+
+project:
+  name: "Owere & Associates"
+  description: >
+    Premier Ugandan tax advisory, auditing, corporate compliance and NGO
+    financial management practice. Handles client consultations, partner
+    credibility logos, and routes inquiries to both a database log and
+    Google Workspace mailboxes.
+
+stack:
+  backend:  "PHP 8.x (native / PDO)"
+  database: "MySQL 8.0+ (database: owere_db)"
+  frontend: "HTML5, CSS3, Vanilla JS"
+  mail:     "Google Workspace SMTP — bookings routed to info@owereassociates.com"
+  integrations:
+    - "Floating WhatsApp Business trigger"
+    - "Contextual per-service WhatsApp prefills"
+
+brand:
+  colors:
+    primary:  "#0B192C"   # Deep Executive Navy
+    accent:   "#D4AF37"   # Warm Gold
+    surface:  "#1E293B"   # Slate Gray
+    bg:       "#F8FAFC"   # Off-White neutral
+    text:     "#0F172A"   # Charcoal Black
+  fonts:
+    display: "Playfair Display"
+    body:    "Inter"
+
+core_services:
+  - key: tax
+    name: "Tax Advisory & Compliance (URA)"
+    scope:
+      - "Corporate & individual tax planning"
+      - "URA tax health checks"
+      - "EFRIS setup & integration"
+      - "Monthly / quarterly / annual return filing"
+  - key: ngo
+    name: "NGO Financial Management & Grant Audits"
+    scope:
+      - "Donor financial reporting"
+      - "Grant accountability frameworks"
+      - "Project fund tracking"
+      - "Donor-compliant accounting systems (QuickBooks/Xero)"
+  - key: corporate
+    name: "Corporate Advisory & Business Registration (URSB)"
+    scope:
+      - "Company incorporation with URSB"
+      - "Annual returns filing"
+      - "Corporate secretarial services"
+      - "Bookkeeping & financial modelling"
+
+mailboxes:
+  general: "info@owereassociates.com"     # web consultation booking alerts
+  director: "director@owereassociates.com" # MD & executive partnerships
+  finance: "finance@owereassociates.com"    # billing, tax invoicing, retainers
+
+database:
+  name: owere_db
+  host: 127.0.0.1
+  user: root
+  charset: utf8mb4
+  tables:
+    - admin_users       # staff logins (username, email, password_hash)
+    - partner_logos     # dynamic client/partner logo uploads
+    - inquiries         # booking & consultation form submissions
+    - system_settings   # WhatsApp number, SMTP & dynamic configs
+
+default_admin:
+  username: admin
+  password: admin123     # auto-created on first visit — change immediately
+
+content_store:
+  path: "content/site-content.json"
+  note: "Editable hero / about / service text managed from /admin/content.php"
+
+routing:
+  public_site: ["index.php", "services.php"]
+  api:
+    - "api/submit-booking.php"      # form -> DB -> SMTP email (info@)
+    - "api/whatsapp-router.php"     # pre-filled wa.me link generator
+  admin: ["admin/index.php", "admin/dashboard.php", "admin/logos.php", "admin/content.php", "admin/settings.php", "admin/logout.php"]

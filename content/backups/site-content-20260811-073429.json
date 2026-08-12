@@ -1,0 +1,352 @@
+{
+    "brand": {
+        "name": "Owere & Associates",
+        "mark": "OA",
+        "tagline": "Tax · NGO · Corporate",
+        "logo": ""
+    },
+    "seo": {
+        "home_title": "Tax, NGO & Corporate Advisory",
+        "home_description": "Owere & Associates — tax advisory & URA compliance, NGO financial management & grant audits, and corporate advisory & URSB registration in Uganda. Book a confidential consultation today.",
+        "services_title": "Our Services",
+        "services_description": "Explore our three practice pillars: Tax Advisory & Compliance (URA), NGO Financial Management & Grant Audits, and Corporate Advisory & Business Registration (URSB)."
+    },
+    "theme": {
+        "preset": "navy-gold",
+        "primary": "#0B192C",
+        "accent": "#D4AF37",
+        "background": "#F8FAFC",
+        "fonts": "classic",
+        "sections": {
+            "hero": "",
+            "stats": "",
+            "cta": "",
+            "footer": ""
+        }
+    },
+    "nav": {
+        "links": [
+            {
+                "label": "Home",
+                "href": "index.php"
+            },
+            {
+                "label": "Services",
+                "href": "services.php"
+            },
+            {
+                "label": "About",
+                "href": "index.php#about"
+            },
+            {
+                "label": "Contact",
+                "href": "index.php#contact"
+            }
+        ],
+        "cta": "Book a Consultation"
+    },
+    "hero": {
+        "eyebrow": "Chartered Tax & Financial Advisory",
+        "title": "Clarity for every *decision*. Precision in every *return*.",
+        "subtitle": "Owere & Associates is a premier tax advisory, auditing, corporate compliance and NGO financial management practice based in Uganda, serving ambitious organisations with rigour and discretion.",
+        "primary_cta": "Book a Consultation",
+        "secondary_cta": "Explore Services",
+        "card_label": "Why clients choose us",
+        "badge": "Est.2022",
+        "image": "",
+        "stats": [
+            {
+                "value": "3",
+                "suffix": "+",
+                "label": "Years of practice"
+            },
+            {
+                "value": "20",
+                "suffix": "+",
+                "label": "Organisations served"
+            },
+            {
+                "value": "98",
+                "suffix": "%",
+                "label": "Client retention rate"
+            }
+        ]
+    },
+    "logos": {
+        "heading": "Trusted by boards, funds & NGOs",
+        "empty_note": "Client logos will appear here once added from the admin panel."
+    },
+    "services_head": {
+        "eyebrow": "What We Do",
+        "title": "Three pillars. One standard of excellence.",
+        "card_cta": "Book Consultation",
+        "card_wa": "WhatsApp",
+        "learn_more": "Learn more",
+        "page_lede": "Three consolidated practice areas, delivered to one uncompromising standard. Choose a pillar to learn more, book a consultation, or message us directly on WhatsApp."
+    },
+    "services": {
+        "items": [
+            {
+                "key": "tax",
+                "num": "01",
+                "icon": "assets/images/icons/briefcase.svg",
+                "title": "Tax Advisory & Compliance",
+                "card_body": "Corporate & individual tax planning, URA tax health checks, EFRIS setup & integration, and reliable filing of monthly, quarterly and annual returns.",
+                "page_lede": "Complete peace of mind with the Uganda Revenue Authority — from day-to-day compliance to EFRIS integration and strategic tax planning.",
+                "page_image": "assets/images/about-visual.svg",
+                "page_image_alt": "Tax advisory and compliance",
+                "whatsapp": "+256702345678",
+                "items": [
+                    {
+                        "heading": "Corporate & individual tax planning",
+                        "text": "Structures that minimise exposure, legitimately."
+                    },
+                    {
+                        "heading": "URA tax health checks",
+                        "text": "Identify and resolve risk before the authority does."
+                    },
+                    {
+                        "heading": "EFRIS setup & integration",
+                        "text": "Streamlined electronic fiscal invoicing."
+                    },
+                    {
+                        "heading": "Filing of monthly, quarterly & annual returns",
+                        "text": "Always on time, always accurate."
+                    }
+                ]
+            },
+            {
+                "key": "ngo",
+                "num": "02",
+                "icon": "assets/images/icons/globe.svg",
+                "title": "NGO Financial Management & Grant Audits",
+                "card_body": "Donor financial reporting, grant accountability frameworks, project fund tracking and donor-compliant accounting systems (QuickBooks/Xero).",
+                "page_lede": "Financial management built for donor accountability — so your funders, board and beneficiaries have complete confidence in every shilling.",
+                "page_image": "assets/images/about-visual.svg",
+                "page_image_alt": "NGO financial management and grant audits",
+                "whatsapp": "+256772456789",
+                "items": [
+                    {
+                        "heading": "Donor financial reporting",
+                        "text": "Reports that satisfy every grant agreement."
+                    },
+                    {
+                        "heading": "Grant accountability frameworks",
+                        "text": "Clear, auditable use of funds."
+                    },
+                    {
+                        "heading": "Project fund tracking",
+                        "text": "Real-time visibility across every project."
+                    },
+                    {
+                        "heading": "Donor-compliant systems (QuickBooks / Xero)",
+                        "text": "Set up and maintained for you."
+                    }
+                ]
+            },
+            {
+                "key": "corporate",
+                "num": "03",
+                "icon": "assets/images/icons/building.svg",
+                "title": "Corporate Advisory & Business Registration",
+                "card_body": "Company incorporation with URSB, annual returns, corporate secretarial services, bookkeeping and financial modelling for decisive growth.",
+                "page_lede": "From incorporating your company with URSB to keeping your books and filings in order, we handle the corporate administration that keeps you trading compliantly.",
+                "page_image": "assets/images/about-visual.svg",
+                "page_image_alt": "Corporate advisory and business registration",
+                "whatsapp": "+256783567890",
+                "items": [
+                    {
+                        "heading": "Company incorporation (URSB)",
+                        "text": "Registered, compliant and ready to trade."
+                    },
+                    {
+                        "heading": "Annual returns & corporate secretarial",
+                        "text": "Statutory obligations handled on time."
+                    },
+                    {
+                        "heading": "Bookkeeping",
+                        "text": "Clean, current and audit-ready records."
+                    },
+                    {
+                        "heading": "Financial modelling",
+                        "text": "Decisions grounded in defensible numbers."
+                    }
+                ]
+            }
+        ]
+    },
+    "about": {
+        "eyebrow": "Who We Are",
+        "title": "A practice built on rigour, discretion and results.",
+        "body": "<p>Owere &amp; Associates is a premier tax advisory, auditing, corporate compliance and NGO financial management practice based in Uganda. We guide founders, boards, finance teams and non-profit leaders through the complexities of taxation, compliance and donor accountability.</p><p>Every engagement is led personally by a partner — never delegated down. We combine technical mastery with commercial instinct, so the advice we give protects you today and positions you for growth tomorrow. Discretion is absolute; deadlines are sacred.</p>",
+        "image": "assets/images/about-visual.svg",
+        "image_alt": "Owere & Associates — financial advisory practice",
+        "quote": "“The best advice is quiet, thorough and unshakeable. That is what we deliver, every engagement.”",
+        "quote_cite": "— The Partners, Owere & Associates",
+        "points": [
+            {
+                "heading": "Partner-led service",
+                "text": "Senior expertise on every file, never delegated down."
+            },
+            {
+                "heading": "URA & URSB fluency",
+                "text": "Regulators handled with confidence and precision."
+            },
+            {
+                "heading": "Donor-compliant systems",
+                "text": "Accounting frameworks trusted by grant funders."
+            },
+            {
+                "heading": "Deadlines honoured",
+                "text": "Filing calendars managed so you never miss a date."
+            }
+        ],
+        "cta": "Book a Consultation"
+    },
+    "stats": {
+        "items": [
+            {
+                "value": "1200",
+                "suffix": "+",
+                "label": "Returns filed"
+            },
+            {
+                "value": "45",
+                "suffix": "+",
+                "label": "Grant audits"
+            },
+            {
+                "value": "120",
+                "suffix": "+",
+                "label": "Compliance reviews"
+            },
+            {
+                "value": "300",
+                "suffix": "+",
+                "label": "Companies registered"
+            }
+        ]
+    },
+    "process": {
+        "eyebrow": "How we work",
+        "title": "A clear path from *first call* to delivered work.",
+        "steps": [
+            {
+                "num": "01",
+                "label": "Consultation"
+            },
+            {
+                "num": "02",
+                "label": "Scoping & proposal"
+            },
+            {
+                "num": "03",
+                "label": "Engagement"
+            },
+            {
+                "num": "04",
+                "label": "Delivery & support"
+            }
+        ]
+    },
+    "gallery": {
+        "eyebrow": "Inside the firm",
+        "title": "A look at how we *work*.",
+        "items": []
+    },
+    "cta_band": {
+        "eyebrow": "Ready when you are",
+        "title": "Uncertainty is expensive.Let's *remove* it.",
+        "lede": "Book a confidential consultation. A partner — not a call centre — will respond within one business day.",
+        "cta": "Book a Consultation"
+    },
+    "contact": {
+        "eyebrow": "Start a Conversation",
+        "title": "Let's discuss your *next move*.",
+        "lede": "Book a confidential consultation — a partner will respond within one business day.",
+        "cards": [
+            {
+                "heading": "Visit us"
+            },
+            {
+                "heading": "Call us"
+            },
+            {
+                "heading": "Email us"
+            },
+            {
+                "heading": "Office hours"
+            }
+        ],
+        "form_heading": "Request a consultation",
+        "form_lede": "Complete the form and we'll be in touch within one business day.",
+        "submit": "Submit Enquiry",
+        "service_placeholder": "Select a service…",
+        "general_option": "General Enquiry"
+    },
+    "booking": {
+        "eyebrow": "Book a Consultation",
+        "title": "Tell us about your *needs*.",
+        "lede": "A partner will respond within one business day. All enquiries are treated in strict confidence.",
+        "submit": "Submit Enquiry",
+        "note": "Prefer to chat? {link}."
+    },
+    "footer": {
+        "blurb": "A trusted financial, tax advisory and corporate compliance practice serving ambitious organisations across East Africa with rigour, discretion and results.",
+        "col_services": "Services",
+        "col_firm": "Firm",
+        "col_contact": "Contact",
+        "services_links": [
+            {
+                "label": "Tax Advisory & Compliance",
+                "href": "services.php#tax"
+            },
+            {
+                "label": "NGO Financial Management & Grant Audits",
+                "href": "services.php#ngo"
+            },
+            {
+                "label": "Corporate Advisory & Business Registration",
+                "href": "services.php#corporate"
+            }
+        ],
+        "firm_links": [
+            {
+                "label": "About Us",
+                "href": "index.php#about",
+                "modal": false
+            },
+            {
+                "label": "Our Clients",
+                "href": "index.php#partners",
+                "modal": false
+            },
+            {
+                "label": "Contact",
+                "href": "index.php#contact",
+                "modal": true
+            },
+            {
+                "label": "Book a Consultation",
+                "href": "#",
+                "modal": true
+            }
+        ],
+        "socials": [],
+        "bottom_left": "© {year} Owere & Associates. All rights reserved.",
+        "bottom_links": [
+            {
+                "label": "Staff Login",
+                "href": "admin/index.php"
+            },
+            {
+                "label": "Privacy Policy",
+                "href": "#"
+            }
+        ]
+    },
+    "_meta": {
+        "schema_version": 2,
+        "updated_at": "2026-08-11T07:34:29+00:00"
+    }
+}

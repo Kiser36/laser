@@ -1,0 +1,9 @@
+.git/
+.gitignore
+.DS_Store
+README.md
+PROJECT_STRUCTURE.md
+ARCHITECTURE.md
+agent_context.md
+agent-config.yml
+schema.sql
